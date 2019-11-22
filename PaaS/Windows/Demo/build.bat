@@ -1,11 +1,11 @@
 @echo off
 
 ::环境变量设置
-set VSPATH=D:\Program Files (x86)\Microsoft Visual Studio\2017
-set ZIPPATH=D:\Program Files\7-Zip
+set VSPATH=C:\Program Files (x86)\Microsoft Visual Studio\2019
+set ZIPPATH=C:\Program Files\7-Zip
 
 ::初始化VS
-call "%VSPATH%\Professional\VC\Auxiliary\Build\vcvarsall.bat" x86
+call "%VSPATH%\Community\VC\Auxiliary\Build\vcvarsall.bat" x86
 
 ::清理目录和文件
 if exist TICDemo.zip del /f /q TICDemo.zip

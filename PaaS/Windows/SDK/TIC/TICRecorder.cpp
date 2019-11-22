@@ -1,3 +1,4 @@
+#include "stdafx.h"
 #include "TICRecorder.h"
 #include "NTP.h"
 #include <chrono>

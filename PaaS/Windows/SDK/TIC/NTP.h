@@ -4,7 +4,7 @@
 * @purpose	NTP对时协议实现
 * @details	封装NTP对时协议
 ********************************************************************/
-
+#include<iostream>
 #include <functional>
 
 typedef std::function<void(int code, const char* desc, int64_t serverTime)> NTPCallback;
